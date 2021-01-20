@@ -1,4 +1,4 @@
-package fr.in.bankspringbach.entites;
+package fr.in.bankspringbach.entities;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -7,7 +7,6 @@ import lombok.ToString;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
-import javax.persistence.Transient;
 import java.util.Date;
 @Entity
 @Data

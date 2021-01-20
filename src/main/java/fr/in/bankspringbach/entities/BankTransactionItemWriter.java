@@ -1,4 +1,4 @@
-package fr.in.bankspringbach.entites;
+package fr.in.bankspringbach.entities;
 
 
 import fr.in.bankspringbach.dao.BankTransactionRepository;
@@ -6,7 +6,6 @@ import org.springframework.batch.item.ItemWriter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import java.io.Serializable;
 import java.util.List;
 @Component
 public class BankTransactionItemWriter implements ItemWriter<BankTransaction> {

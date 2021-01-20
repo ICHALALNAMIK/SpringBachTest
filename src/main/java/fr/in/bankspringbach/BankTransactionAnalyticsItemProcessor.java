@@ -1,11 +1,8 @@
 package fr.in.bankspringbach;
 
-import fr.in.bankspringbach.entites.BankTransaction;
+import fr.in.bankspringbach.entities.BankTransaction;
 import lombok.Getter;
 import org.springframework.batch.item.ItemProcessor;
-import org.springframework.stereotype.Component;
-
-import java.text.SimpleDateFormat;
 
 //@Component
 public class BankTransactionAnalyticsItemProcessor implements ItemProcessor<BankTransaction,BankTransaction> {

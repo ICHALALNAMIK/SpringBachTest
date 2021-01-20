@@ -1,6 +1,6 @@
 package fr.in.bankspringbach;
 
-import fr.in.bankspringbach.entites.BankTransaction;
+import fr.in.bankspringbach.entities.BankTransaction;
 import org.springframework.batch.core.Job;
 import org.springframework.batch.core.Step;
 import org.springframework.batch.core.configuration.annotation.EnableBatchProcessing;
